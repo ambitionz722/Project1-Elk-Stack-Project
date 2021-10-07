@@ -83,7 +83,6 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 
 The following screenshot displays the result of running of the docker ps command after successfully configuring the ELK instance.
 
-
 ![](https://github.com/ambitionz722/Project1-Elk-Stack-Project/blob/main/Diagrams/o.png)
 
 Target Machines & Beats
@@ -115,11 +114,11 @@ SSH into the control node and follow the steps below:
  
 Example configuration of /etc/ansible/hosts:
 
-[](https://github.com/ambitionz722/Project1-Elk-Stack-Project/blob/main/Diagrams/docker.png)
+![](https://github.com/ambitionz722/Project1-Elk-Stack-Project/blob/main/Diagrams/docker.png)
 
 - Run the playbook, and navigate to http://http://23.99.66.214:5601/app/kibana#/home to check that the installation worked as expected.
       - The command to execute your playbook is: ansible-playbook /etc/ansible/ELK-playbook.yml
 
-[](https://github.com/ambitionz722/Project1-Elk-Stack-Project/blob/main/Diagrams/kibana.png)
+![](https://github.com/ambitionz722/Project1-Elk-Stack-Project/blob/main/Diagrams/kibana.png)
 
 
