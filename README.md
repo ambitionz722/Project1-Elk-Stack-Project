@@ -43,7 +43,7 @@ The configuration details of each machine may be found below.
 
 | Name                 | Function           | Public IP Address | Private IP Address | OS           |
 |----------------------|--------------------|-------------------|--------------------|--------------|
-| Jump Box Provisioner | Gateway            | 13.72.64.145      | 10.0.1.4           | Ubuntu 18.04 |
+| Jump Box Provisioner | Gateway            | 13.72.64.145      | 10.0.1.5           | Ubuntu 18.04 |
 | Web1                 | Application Server | 168.62.162.99     | 10.0.1.6           | Ubuntu 18.04 |
 | Web2                 | Application Server | 168.62.162.99     | 10.0.1.7           | Ubuntu 18.04 |
 | ELK-VM               | ELK Stack Server   | 23.99.66.214      | 10.1.0.4           | Ubuntu 18.04 |
@@ -69,8 +69,8 @@ A summary of the access policies in place can be found in the table below.
 |----------------------|---------------------|---------------------|
 | Jump Box Provisioner | Yes                 | My Home IP Address  |
 | Elk Stack            | Yes                 | My Home IP Address  |
-| Web1                 | No                  | 10.0.0.4            |
-| Web2                 | No                  | 10.0.0.4            |
+| Web1                 | No                  | 10.0.1.6            |
+| Web2                 | No                  | 10.0.1.7            |
 
 Elk Configuration
 
