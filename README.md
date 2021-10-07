@@ -20,7 +20,7 @@ This document contains the following details:
 - How to Use the Ansible Build
 
 
-                                                    Description of the Topology
+                                                  Description of the Topology
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
@@ -48,7 +48,7 @@ The configuration details of each machine may be found below.
 
 
 
-                                                          Access Policies
+                                                       Access Policies
 
 The machines on the internal network are not exposed to the public Internet. 
 
@@ -70,7 +70,7 @@ A summary of the access policies in place can be found in the table below.
 | Web1                 | no                  | 10.0.0.4            |
 | Web2                 | no                  | 10.0.0.4            |
 
-                                                          Elk Configuration
+                                                        Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because it allows a consistent and predictable configuration.  In addition to the consistency of everything, when you get the setup automated the ELK stack can be created and configured very quickly.
 
@@ -103,7 +103,7 @@ These Beats allow us to collect the following information from each machine:
   - Metricbeat - reports system and service statistics from the Web VMs to the ELK stack VM.
 
 
-                                                          Using the Playbook
+                                                        Using the Playbook
                                                           
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
