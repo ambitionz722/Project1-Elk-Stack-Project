@@ -65,10 +65,10 @@ A summary of the access policies in place can be found in the table below.
 
 | Name                 | Publicly Accessible | Allowed IP Addesses |
 |----------------------|---------------------|---------------------|
-| Jump Box Provisioner | yes                 | My Home IP Address  |
-| Elk Stack            | yes                 | My Home IP Address  |
-| Web1                 | no                  | 10.0.0.4            |
-| Web2                 | no                  | 10.0.0.4            |
+| Jump Box Provisioner | Yes                 | My Home IP Address  |
+| Elk Stack            | Yes                 | My Home IP Address  |
+| Web1                 | No                  | 10.0.0.4            |
+| Web2                 | No                  | 10.0.0.4            |
 
 Elk Configuration
 
