@@ -2,9 +2,11 @@
 
 The files in this repository were used to configure the network depicted below.
 
+
 ![](https://github.com/ambitionz722/Project1-Elk-Stack-Project/blob/main/Diagrams/network_diagram__1_.jpg)
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
+
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the Ansible file may be used to install only certain pieces of it, such as Filebeat.
 
   - [DVWA Webserver Playbook](https://github.com/ambitionz722/Project1-Elk-Stack-Project/blob/main/Ansible/DVWA-playbook.yml.txt)
   - [ELK Playbook](https://github.com/ambitionz722/Project1-Elk-Stack-Project/blob/main/Ansible/DVWA-playbook.yml.txt)
@@ -54,7 +56,7 @@ The machines on the internal network are not exposed to the public Internet.
 
 Only the Jump-Box-Provisioner and ELK Stack (Kibana) machines can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
 
-My Home IP Address: 24.192.74.174
+My Home IP Address
 
 Machines within the network can only be accessed by the Jump-Box-Provisioner.
 
