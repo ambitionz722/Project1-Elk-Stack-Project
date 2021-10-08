@@ -29,7 +29,7 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 Load balancing ensures that the application will be highly available, in addition to restricting access to the network.
 
 Load Balancers are put into place to help protect systems from DDoS attacks
-A Jump-Box that all admins have to connect to previous to launching any administrative task. All tools are maintained on a centralized server making it easy to diagnose any issues on a network. 
+A Jump-Box maintains that all administrators connect to this machine previous to launching any administrative task. All tools are maintained on a centralized server making it easy to diagnose any issues on a network. 
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the log files and system metrics.
 
