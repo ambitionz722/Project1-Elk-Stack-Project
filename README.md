@@ -69,8 +69,8 @@ A summary of the access policies in place can be found in the table below.
 |----------------------|---------------------|---------------------|
 | Jump Box Provisioner | Yes                 | My Home IP Address  |
 | Elk Stack            | Yes                 | My Home IP Address  |
-| Web1                 | No                  | 10.0.1.6            |
-| Web2                 | No                  | 10.0.1.7            |
+| Web1                 | No                  | 10.0.1.5            |
+| Web2                 | No                  | 10.0.1.5            |
 
 Elk Configuration
 
