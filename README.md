@@ -3,7 +3,7 @@
 The files in this repository were used to configure the network depicted below.
 
 
-![](https://github.com/ambitionz722/Project1-Elk-Stack-Project/blob/main/Diagrams/network_diagram__1_.jpg)
+![](https://github.com/ambitionz722/Project1-Elk-Stack-Project/blob/main/Diagrams/NetworkDiagram.png)
 
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the Ansible file may be used to install only certain pieces of it, such as Filebeat.
@@ -14,7 +14,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
   - [Metricbeat Playbook](https://github.com/ambitionz722/Project1-Elk-Stack-Project/blob/main/Ansible/metricbeat-playbook.yml.txt)
 
 This document contains the following details:
-- Description of the Topologu
+- Description of the Topology
 - Access Policies
 - ELK Configuration
   - Beats in Use
@@ -29,7 +29,7 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 Load balancing ensures that the application will be highly available, in addition to restricting access to the network.
 
 Load Balancers are put into place to help protect systems from DDoS attacks
-A Jump-Box that all admins have to connect to previous to launching any administrative task. All tools are maintained on a centralized server making it easy to diagnose any issues on a network. 
+A Jump-Box maintains that all administrators connect to this machine previous to launching any administrative task. All tools are maintained on a centralized server making it easy to diagnose any issues on a network. 
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the log files and system metrics.
 
@@ -69,8 +69,8 @@ A summary of the access policies in place can be found in the table below.
 |----------------------|---------------------|---------------------|
 | Jump Box Provisioner | Yes                 | My Home IP Address  |
 | Elk Stack            | Yes                 | My Home IP Address  |
-| Web1                 | No                  | 10.0.1.6            |
-| Web2                 | No                  | 10.0.1.7            |
+| Web1                 | No                  | 10.0.1.5            |
+| Web2                 | No                  | 10.0.1.5            |
 
 Elk Configuration
 
